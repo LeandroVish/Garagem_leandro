@@ -23,3 +23,5 @@ if __name__ == "__main__":
 
     parametro = sys.argv[1]
     create_files(parametro)
+
+#./script/cria_api.py nome
