@@ -12,3 +12,7 @@ class Veiculo(models.Model):
 
     def __str__(self):
         return f"{self.modelo} {self.ano} {self.cor}"
+    
+    class Meta:
+        verbose_name = "Veículo"
+        verbose_name_plural = "Veículos"
